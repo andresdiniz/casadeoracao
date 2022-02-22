@@ -121,6 +121,7 @@ audio{
     box-shadow: 1px 1px 1px black;
     margin: auto;
     align-items: center;
+    border-radius: 1px;
 }
 footer{
     clear: both;
