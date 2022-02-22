@@ -128,7 +128,7 @@ main{
 audio{
     display: block;
     width: 100%;
-    background-color: var(--cor1);
+    color: var(--cor4);
     box-shadow: 1px 1px 1px black;
     margin: auto;
     align-items: center;
