@@ -1,0 +1,117 @@
+@charset 'UTF-8';
+
+:root{
+    --cor1:#c7eef5;   
+    --cor2:#2aedf7;
+    --cor3:#55c6cc;
+    --cor4:#44989c;
+    --cor5:#146c70;
+    
+}
+
+body{
+    margin: auto;
+    background-color: var(--cor1);
+}
+header{
+    background-image: linear-gradient(to bottom,var(--cor1),var(--cor3));
+    padding: 10px;
+    text-align: center;
+    margin-top: -8px;
+}
+nav{
+    background-color: var(--cor3);
+    text-decoration: none;
+    padding: 15px;
+    margin-top: -2px;
+    padding-bottom: -5px;
+    margin-bottom: -5px;
+    box-shadow: 2px 2px 2px black;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    
+}
+nav>a:hover{
+    background-color: #cecece;
+    border-radius: 3px 3px 0px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+}
+aside#anuncio{
+    min-height: 150px;
+    max-width: 200px;
+    background-color: black;
+    margin: auto;
+}
+main{
+    position: relative;
+    max-width: 1100px;
+    min-width: 300px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+.direita{
+    float: right;
+    max-width:30%;
+    min-width: 5%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: white;
+    margin-bottom: 2px;
+    box-shadow: 2px 2px 1px black;
+}
+.direita h1{
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px black;
+    padding: 2px;
+}
+.direita h2{
+    font-size: 1em;
+}
+.direita iframe{
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+}
+.central{
+    display: grid;
+    background-color: white;
+    border-radius: 5px;
+    min-width: 45%;
+    max-width: 80%;
+    text-align: justify;
+    padding: 5px;
+    margin: 0px 1px 0px 1px;
+    box-shadow: 2px 2px 1px black;
+}
+
+.central p{
+    font-size: 0.8em;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+.central ul{
+    font-size: 0.6em;
+    font-weight: bolder;
+    text-indent: 30px;
+    text-align: justify;
+}
+.central img{
+    width: 100%;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 5px;
+    background-color: var(--cor5);
+    border-radius: 0px 0px 5px 5px;
+    padding: 5px;
+}
