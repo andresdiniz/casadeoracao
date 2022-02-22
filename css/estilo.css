@@ -134,6 +134,18 @@ audio{
     align-items: center;
     border-radius: 1px;
 }
+.whatsapp{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1p black;
+    width: 200px;
+
+}
+.whatsapp a{
+    text-decoration: none;
+    color: black;
+}
 footer{
     clear: both;
     text-align: center;
